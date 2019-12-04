@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div>
+      <form>
+        <ol>
+          <li>Name:<input id="input" type="text" name="name" /></li>
+          <li>
+            Type:<input id="fruit" type="radio" name="type" />Fruit
+            <input id="vegetable" type="radio" name="type" />Vegetable
+          </li>
+        </ol>
+      </form>
+      <button onclick="runCode()">Add</button>
+    </div>
+
+    <div class="bottom">
+      <div class="foodList">
+        <h1 id="fruit">Fruits</h1>
+        <ul id="fruitListOutput"></ul>
+      </div>
+
+      <div class="foodList">
+        <h1 id="vegetable">Vegetables</h1>
+        <ul id="vegetableListOutput"></ul>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

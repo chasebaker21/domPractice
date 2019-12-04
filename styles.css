@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    border: 1px solid black;
+    padding: 50px;
+    height: 100px;
+    width: 400px;
+    
+}
+
+ol {
+    margin: -23px;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+button {
+    border: 1px solid black;
+    background-color: lightgrey;
+    margin-top: 10px;
+}
+.bottom {
+    display: flex;
+}
+
+.foodList {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
